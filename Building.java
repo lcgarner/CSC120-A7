@@ -1,4 +1,4 @@
-import javax.management.RuntimeErrorException;
+//import javax.management.RuntimeErrorException;
 
 public class Building {
 
@@ -111,6 +111,7 @@ public class Building {
         fordHall.goUp();
         fordHall.goDown();
         fordHall.exit();
+        //fordHall.exit();
     }
 
 }
