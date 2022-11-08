@@ -164,6 +164,8 @@ public class Library extends Building{
       Library neilson = new Library("Neilson", "Chapin Way", 4, neilsonCollection, true);
 
       neilson.showOptions();
+      neilson.addTitle("Ariel", "Trick Mirror");
+      neilson.printCollection();
       System.out.println(neilson.toString());
       neilson.addTitle("War and Peace");
       System.out.println(neilson.toString());
